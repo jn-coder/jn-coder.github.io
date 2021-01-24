@@ -33,5 +33,21 @@ $(document).ready(function() {
      const result = subtract(number1, number2);
      $("#output").text(result);
    });
+  
+   $("form#mul").submit(function(event) {
+    event.preventDefault();
+     const number1 = parseInt($("#mul1").val());
+     const number2 = parseInt($("#mul2").val());
+     const result = multiply(number1, number2);
+     $("#output").text(result);
+   });
+
+   $("form#div").submit(function(event) {
+    event.preventDefault();
+     const number1 = parseInt($("#div1").val());
+     const number2 = parseInt($("#div2").val());
+     const result = divide(number1, number2);
+     $("#output").text(result);
+   });
 
 });
