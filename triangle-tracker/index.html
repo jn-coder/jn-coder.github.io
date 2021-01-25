@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Triangle Tracker</title>
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Triangle Tracker</h1>
+    <p>Enter the 3 angles in degrees, and I will tell you if it's not a triangle, an Equilateral, an Isceles, or a Scalene.</p> 
+    <form id="triangle">
+    <div class="form-group">
+      <label for="side1">Please enter first angle</label>
+      <input id="side1" class="form-control" type="number">
+    </div>
+
+    <div class="form-group">
+      <label for="side2">Please enter the second angle</label>
+      <input id="side2" class="form-control" type="number">
+    </div>
+
+    <div class="form-group">
+      <label for="side3">Please emter the third angle</label>
+      <input id="side3" class="form-control" type="number">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit!</button>
+    </form>
+    <div id="none">
+      <h1>It's not possisble to make a triangle with those measurements!</h1>
+    </div>
+    
+    <div id="equilateral">
+      <h1>That makes an Equilateral triangle</h1>
+    </div>
+
+    <div id="iscoseles">
+      <h1>That makes an Iscoseles triangle</h1>
+    </div>
+
+    <div id="scalene">
+      <h1>That makes a Scalene triangle</h1>
+    </div>
+
+  </div>
+</body>
+</html>
