@@ -53,6 +53,11 @@ function displayContactDetails(addressBookToDisplay) {
   contactsList.html(htmlForContactInfo);
 };
 
+function attachContactListeners() {
+  $("ul#contacts").on("click", "li", function() {
+    showContact(this.id);
+};
+
 $(document).ready(function() {
   $("form#new-contact").submit(function(event) {
     event.preventDefault();
