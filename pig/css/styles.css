@@ -33,13 +33,14 @@ form {
    #rollResult {
     border: 2px solid black;
     display: none;
-    background:#ff6699;
+    background:#ffb6c1;
     text-align: center;
     font-size: 3em;
   }
   
   #turnTotalStuff {
     text-align: center;
+    background: #ffb6c1;
   
   }
   
@@ -53,16 +54,16 @@ form {
     display: none;
     text-align: center;
     border: 2px solid black;
-    color: #ff6699;
-    background-color: black;
+    color: #000000;
+    background-color: #ffb6c1;
   }
   
   #player2Display {
     display: none;
     text-align: center;
     border: 2px solid black;
-    color: #ff6699;
-    background-color: black;
+    color: #000000;
+    background-color: #ffb6c1;
   }
   
   
