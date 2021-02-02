@@ -2,3 +2,7 @@ car-dealership/bin/*
 car-dealership/obj/*
 Calendar.Solution/Calendar*/bin/*
 Calendar.Solution/Calendar*/obj/*
+*/bin/*
+*/obj/*
+.vscode
+*/.vscode/*
