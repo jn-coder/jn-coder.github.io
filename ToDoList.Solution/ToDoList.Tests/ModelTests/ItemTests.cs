@@ -6,7 +6,7 @@ using System;
 namespace ToDoList.Tests
 {
   [TestClass]
-  public class ItemTests : IDisposable
+  public class ItemTest : IDisposable
   {
 
     public void Dispose()
