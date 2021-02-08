@@ -1,0 +1,22 @@
+.jumbotron {
+    text-align: center;
+    background-color: #333;
+    font-family: 'Bungee Shade';
+    font-size: 4em;
+    color: #ffffff;
+}
+
+button {
+    margin: 10px;
+    align-self: center;
+  }
+
+  div#footer {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#333;
+    padding:8px;
+}
