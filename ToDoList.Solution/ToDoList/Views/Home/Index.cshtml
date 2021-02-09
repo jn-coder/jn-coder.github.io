@@ -5,8 +5,8 @@
   <body>
 		<h1 class="jumbotron">Welcome to the To Do List!</h1>
 		<center>
-		<button type="button" class="btn btn-primary" onclick="location.href='/categories'">View categories</button>
-		<button type="button" class="btn btn-primary" onclick="location.href='/categories/new'">Add a new category</button>
+		<p>@Html.ActionLink("See all items", "Index", "Items")</p>
+		<p>@Html.ActionLink("See all categories", "Index", "Categories")</p>
 		</center>
 	</body>	
 </html>
